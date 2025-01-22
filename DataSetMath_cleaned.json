@@ -1,0 +1,914 @@
+[
+    {
+        "ID": 1,
+        "Aufgabenbereich": "Mengen",
+        "Aufgabentext": "Welche der folgenden Ausdrücke stellen Mengen dar? Begründen Sie Ihre Antwort.",
+        "Details": {
+            "a": "{-6, -5, 0, 3}",
+            "b": "[-7]",
+            "c": "[-11, -5, 3, 5]",
+            "d": "[2, 13]",
+            "e": "{}",
+            "f": "{0}"
+        },
+        "Lösung": {
+            "a": "ist eine Menge in Aufzählender Schreibweise.",
+            "b": "ist eine Menge in Intervallschreibweise.",
+            "c": "ist keine Menge aufgrund der falschen Klammern.",
+            "d": "ist eine Menge in Intervallschreibweise.",
+            "e": "ist eine leere Menge.",
+            "f": "ist eine Menge."
+        },
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 2,
+        "Aufgabenbereich": "Mengen",
+        "Aufgabentext": "Bilden Sie für die Mengen A = {1, 2, 3, 4, 5}, B = [1, 4] und C = {4, 5, 9, 11}.",
+        "Details": {
+            "a": "A ∩ B",
+            "b": "A ∩ C",
+            "c": "A ∪ C",
+            "d": "A \\ C",
+            "e": "A \\ B",
+            "f": "Ist B ⊆ A?"
+        },
+        "Lösung": {
+            "a": "A ∩ B = {1, 2, 3, 4}",
+            "b": "A ∩ C = {4, 5}",
+            "c": "A ∪ C = {1, 2, 3, 4, 5, 9, 11}",
+            "d": "A \\ C = {1, 2, 3}",
+            "e": "A \\ B = {5}",
+            "f": "B ⊆ A: Ja"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 3,
+        "Aufgabenbereich": "Mengen",
+        "Aufgabentext": "Bilden Sie für die folgenden Mengen jeweils die Mengen A ∩ B, A ∪ B und kennzeichnen Sie diese am Zahlenstrahl.",
+        "Details": {
+            "a": "A = ]−∞, 2], B = ]2,∞[",
+            "b": "A = [−7, 4], B = ]2, 5]"
+        },
+        "Lösung": {
+            "a": "A ∩ B = {} und A ∪ B = ]−∞, ∞[",
+            "b": "A ∩ B = ]2, 4] und A ∪ B = [−7, 5]"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 4,
+        "Aufgabenbereich": "Mengen",
+        "Aufgabentext": "Kennzeichnen Sie die Mengen am Zahlenstrahl und formen Sie diese in Intervallschreibweise um.",
+        "Details": {
+            "a": "{x ∈ ℝ | x ≥ −3 und x < 7}",
+            "b": "{x ∈ ℝ | −5 ≤ x < 0 oder −3 ≤ x < 4}",
+            "c": "{x ∈ ℝ | x ≤ 4 und x ≥ 9}",
+            "d": "{x ∈ ℝ | −6 < x ≤ 6 oder 8 ≤ x < 9}"
+        },
+        "Lösung": {
+            "a": "[−3, 7[",
+            "b": "[−5, 0[ ∪ [−3, 4[",
+            "c": "Keine Schnittmenge",
+            "d": "]−6, 6] ∪ [8, 9["
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 5,
+        "Aufgabenbereich": "Mengen",
+        "Aufgabentext": "Formen Sie die Intervalle in Mengenschreibweise um.",
+        "Details": {
+            "a": "]8,∞[",
+            "b": "[−7,−1]",
+            "c": "]−∞, 2[ ∩ [−5, 5[",
+            "d": "[−12,−4[ ∪ [0, 6]"
+        },
+        "Lösung": {
+            "a": "{x ∈ ℝ | x > 8}",
+            "b": "{x ∈ ℝ | −7 ≤ x ≤ −1}",
+            "c": "{x ∈ ℝ | −5 ≤ x < 2}",
+            "d": "{x ∈ ℝ | −12 ≤ x < −4 oder 0 ≤ x ≤ 6}"
+        },
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 6,
+        "Aufgabenbereich": "Brüche",
+        "Aufgabentext": "Fassen Sie den folgenden Ausdruck so weit wie möglich zusammen.",
+        "Details": {
+            "a": "(1/4 * (2/3)^2) - (3/10 ÷ 1/(4/5) * 4^(4/5))"
+        },
+        "Lösung": {
+            "a": "12/5"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 7,
+        "Aufgabenbereich": "Termumformungen",
+        "Aufgabentext": "Vereinfachen Sie die folgenden Terme so weit wie möglich.",
+        "Details": {
+            "a": "(3r^2 - s^2)(2r + 3s) - (2r + 5s)(4r^2 - 2s^2)",
+            "b": "-(2/3) + (4/5) - (7/8)"
+        },
+        "Lösung": {
+            "a": "−2r³ − 27rs² − 15s³",
+            "b": "(-3/2) * t + (1/8) * s"
+        },
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 8,
+        "Aufgabenbereich": "Termumformungen",
+        "Aufgabentext": "Vereinfachen Sie die folgenden Terme so weit wie möglich.",
+        "Details": {
+            "a": "(2a + 6b)(2a − 6b) − (6b + a)^2",
+            "b": "(-3x^2)/(4y) ÷ (-5z^2)/(6x)"
+        },
+        "Lösung": {
+            "a": "−8a² − 72ab − 71b²",
+            "b": "(4 * x - 8) / 5"
+        },
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 9,
+        "Aufgabenbereich": "Termumformungen",
+        "Aufgabentext": "Vereinfachen Sie die folgenden Terme durch Ausklammern, Faktorisieren und Kürzen.",
+        "Details": {
+            "a": "(16x^2 − 4y^2) ÷ (2x + y)",
+            "b": "(2x^2 + 3xy) / (x + y)"
+        },
+        "Lösung": {
+            "a": "8x - 4y"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 10,
+        "Aufgabenbereich": "Gleichungen",
+        "Aufgabentext": "Lösen Sie die folgende Formel zweimal auf, einmal nach der Variablen y₂ und einmal nach der Variablen x₂.",
+        "Details": {
+            "a": "k = (y₂ − y₁)/(x₂ − x₁)"
+        },
+        "Lösung": {
+            "a": "kx₂ − kx₁ + y₁ = y₂",
+            "b": "y₂ − y₁ + x₁ = x₂"
+        },
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 11,
+        "Aufgabenbereich": "Universal- und Existenzaussagen",
+        "Aufgabentext": "Überprüfen Sie, ob die folgenden Aussagen richtig oder falsch sind.",
+        "Details": {
+            "a": "∀x ∈ ℝ: x³ < x²",
+            "b": "∃x ∈ ℝ: x² + 4x + 4 = 0",
+            "c": "∃x ∈ ℝ: x² + 5 = 0"
+        },
+        "Lösung": {
+            "a": "Falsch",
+            "b": "Richtig",
+            "c": "Falsch"
+        },
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 12,
+        "Aufgabenbereich": "Gleichungen",
+        "Aufgabentext": "Lösen Sie die folgenden Gleichungen nach x auf.",
+        "Details": {
+            "a": "(2x + 5)/2 = (4x − 9)/5",
+            "b": "9 − 5(4x − 3) = 6 + 6(−2x + 7)"
+        },
+        "Lösung": {
+            "a": "x = 3.5",
+            "b": "x = -3"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 13,
+        "Aufgabenbereich": "Gleichungen",
+        "Aufgabentext": "Lösen Sie die folgenden Gleichungen nach x auf.",
+        "Details": {
+            "a": "(x − 4)(−2x + 6) = −x(2x + 3) − 5",
+            "b": "−2x² + 5 − 2x = −6x − 11"
+        },
+        "Lösung": {
+            "a": "x = 19/17",
+            "b": "x₁ = -2, x₂ = 4"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 14,
+        "Aufgabenbereich": "Gleichungen",
+        "Aufgabentext": "Es sind zwei Formeln gegeben. Ermitteln Sie ω in Abhängigkeit von T.",
+        "Details": {
+            "a": "T = (2πR)/v",
+            "b": "v = Rω"
+        },
+        "Lösung": {
+            "a": "ω = (2π)/T"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 15,
+        "Aufgabenbereich": "Gleichungen",
+        "Aufgabentext": "Lösen Sie die folgende Formel nach der Variablen m auf.",
+        "Details": {
+            "a": "mgh = (mv²)/2 + (Iω²)/2"
+        },
+        "Lösung": {
+            "a": "m = (Iω²)/(2gh − v²)"
+        },
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 16,
+        "Aufgabenbereich": "Definitionsbereiche der Funktionen",
+        "Aufgabentext": "Geben Sie die Definitionsbereiche der folgenden Funktionen an:",
+        "Details": {
+            "a": "f(x) = (5x^2)/(√(4x + 7))",
+            "b": "f(x) = (6x -1 )/((3x + 5)(4 - x))"
+        },
+        "Lösung": {
+            "a": "x > -7/4",
+            "b": "x ≠ -5/3, x ≠ 4"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 17,
+        "Aufgabenbereich": "Nullstellen und Definitionsbereiche",
+        "Aufgabentext": "Gegeben sei die Funktion f(x) = (x^2 + x - 1)/(x^2 - 4). Bestimmen Sie die Nullstellen und den Definitionsbereich dieser Funktion.",
+        "Details": {},
+        "Lösung": {
+            "Definitionsbereich": "x ≠ ±2",
+            "Nullstellen": "Keine da keine im Definitionsbereich ist"
+        },
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 18,
+        "Aufgabenbereich": "Funktionen",
+        "Aufgabentext": "Gegeben sei die Funktion f(x) = 3x^2 + 21x + 36.",
+        "Details": {
+            "a": "Ermitteln Sie Definitionsbereich und Nullstellen dieser Funktion.",
+            "b": "Zerlegen Sie die Funktion anschließend in Linearfaktoren.",
+            "c": "Skizzieren Sie die Funktion.",
+            "d": "Wo ist die Funktion monoton wachsend, wo ist sie monoton fallend?"
+        },
+        "Lösung": {
+            "Definitionsbereich": "Alle reellen Zahlen",
+            "Nullstellen": "x = -3 und x = -4",
+            "Linearfaktoren": "f(x) = 3(x + 3)(x + 4)",
+            "Monotonie": "x < -3,5 monoton fallend, x > -3,5 monoton steigend"
+        },
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 19,
+        "Aufgabenbereich": "Periodizität",
+        "Aufgabentext": "Lesen Sie die Perioden der unten abgebildeten Funktionen ab.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 20,
+        "Aufgabenbereich": "Symmetrie",
+        "Aufgabentext": "Gegeben seien die Funktionen:\n f₁(x) = (x^2 - 4)/(x + 2), f₂(x) = 1/(x(x^2 − t)^2), t ∈ ℝ, f₃(x) = x^3 + 2x^2 − 3x + 4. Untersuchen Sie diese Funktionen auf Symmetrie.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 21,
+        "Aufgabenbereich": "Linearfaktorzerlegung",
+        "Aufgabentext": "Bestimmen Sie alle Nullstellen des Polynoms und zerlegen Sie das Polynom anschließend in Linearfaktoren. \nRaten Sie dazu zunächst eine Nullstelle und verwenden dann das Horner-Schema oder die Polynomdivision:\n p(x) = x^3 − 6x^2 − 19x + 24",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 22,
+        "Aufgabenbereich": "Linearfaktorzerlegung",
+        "Aufgabentext": "Bestimmen Sie alle Nullstellen des Polynoms und zerlegen Sie das Polynom anschließend in Linearfaktoren:\n p(x) = −2x^4 − 12x^3 + 26x^2 + 84x",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 23,
+        "Aufgabenbereich": "Ganzrationale Funktionen",
+        "Aufgabentext": "Berechnen Sie den Scheitelpunkt der folgenden Parabel. Verwenden Sie die Scheitelpunktform:\n f(x) = −4x^2 + 24x − 43",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 24,
+        "Aufgabenbereich": "Ganzrationale Funktionen",
+        "Aufgabentext": "Welche Parabel mit dem Scheitelpunkt S = (2, 6) verläuft durch den Punkt P = (1, 9)?",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 25,
+        "Aufgabenbereich": "Ganzrationale Funktionen",
+        "Aufgabentext": "Bestimmen Sie ein Polynom p(x) 2. Grades mit den Eigenschaften:\n p(x) ist gerade, der Funktionsgraph schneidet die x-Achse u.a. bei x = −4 und die y-Achse bei y = 32.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 26,
+        "Aufgabenbereich": "Ganzrationale Funktionen",
+        "Aufgabentext": "Welches zum Ursprung (0, 0) punktsymmetrische Polynom p (d.h. p ist ungerade) vom Grad 3 hat eine Nullstelle bei x = 2 und verläuft durch den Punkt P = (3, 15)?",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 27,
+        "Aufgabenbereich": "Trigonometrische Funktionen",
+        "Aufgabentext": "Gegeben seien die folgenden Funktionen:\n a) y = (1/2) sin(x + π)\n b) y = (1/3) sin(4x)\n Ermitteln Sie den Wertebereich, die Periode und die erste Nullstelle der Funktionen. Anschließend zeichnen Sie die Funktionen.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 28,
+        "Aufgabenbereich": "Trigonometrische Funktionen",
+        "Aufgabentext": "Für die unten dargestellte Funktion stellen Sie die Funktionsgleichung auf. \nSchreiben Sie Ihr Ergebnis in der Form f(x) = a ∙ sin(bx + c) + d.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 29,
+        "Aufgabenbereich": "Trigonometrische Funktionen, Additionstheoreme",
+        "Aufgabentext": "Fassen Sie mit Hilfe der Additionstheoreme die folgende Gleichung so weit wie möglich zusammen:\n sin(x + 5) − cos(5) sin(x) = (1/2) sin(5)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 30,
+        "Aufgabenbereich": "Trigonometrische Gleichungen",
+        "Aufgabentext": "Weisen Sie mit Hilfe der Additionstheoreme nach:\n sin^2(x) = (1/2)(1 − cos(2x))\n Tipp: 2x = x + x und 1 = sin^2(x) + cos^2(x)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 31,
+        "Aufgabenbereich": "Ungleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Ungleichung in ℝ:\n(x − 3)/3 − (x + 1)/2 > 5",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 32,
+        "Aufgabenbereich": "Ungleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Ungleichung in ℝ:\n−x^2 − 2x + 48 < 0",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 33,
+        "Aufgabenbereich": "Ungleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Ungleichung in ℝ:\n2(x^2 + 6x) ≤ −18",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 34,
+        "Aufgabenbereich": "Ungleichungen",
+        "Aufgabentext": "Bestimmen Sie den Definitionsbereich und die Lösungsmenge der folgenden Ungleichung in ℝ:\n4 + 1/(2 − x) ≥ 3",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 35,
+        "Aufgabenbereich": "Ungleichungen",
+        "Aufgabentext": "Bestimmen Sie den Definitionsbereich und die Lösungsmenge der folgenden Ungleichung in ℝ:\n(x + 1)/(3x) ≤ 6/(3x)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 36,
+        "Aufgabenbereich": "Logarithmenterme",
+        "Aufgabentext": "Fassen Sie die folgenden Terme zusammen:\n a) (1/2) log₃(x^2) + log₃(6^(2/7))\n b) ln(√(a^5)) + ln(6(a*b)^(3/7)) − (1/2) ln(b)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 37,
+        "Aufgabenbereich": "Logarithmenterme",
+        "Aufgabentext": "Fassen Sie den folgenden Term zusammen:\n(1/3) log₂(x + y) − (1/3) log₂(x^2 − y^2) − (1/2) log₂(x − y) + log₂(x − y)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 38,
+        "Aufgabenbereich": "Potenzterme",
+        "Aufgabentext": "Fassen Sie den folgenden Term zusammen:\n(2x^4 * y^3)/(3a^3 * 2b^4) ÷ (x^2 * 2y)/(2a^2 * 3b^2)^3",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 39,
+        "Aufgabenbereich": "Potenzterme",
+        "Aufgabentext": "Fassen Sie die folgenden Terme zusammen:\n a) (2^5)/(3^2) * (2^(1/2))/(3^(3/2))\n b) 12b^4 * c * (2^(3/5))/(3^(7/5)) * √(30ac)",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 40,
+        "Aufgabenbereich": "Vektorrechnung",
+        "Aufgabentext": "Drücken Sie die Vektoren für die Kanten einer dreiseitigen Pyramide ABCD, nämlich AB⃗, AD⃗, BD⃗, BC⃗, CD⃗, mit Hilfe der gegebenen Vektoren\n u⃗ = (1/2)AB⃗, v⃗ = AC⃗ und w⃗ = (2/3)AD⃗ aus.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 41,
+        "Aufgabenbereich": "Vektoren",
+        "Aufgabentext": "Gegeben seien die Punkte A = (−2; 3;−4) und B = (1;−2;−3).\n a) Wie lauten die Ortsvektoren zu den angegebenen Punkten?\n b) Berechnen Sie den Abstand zwischen den Punkten.\n c) Bestimmen Sie einen Vektor, der zum Ortsvektor des Punktes A senkrecht ist.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 42,
+        "Aufgabenbereich": "Vektoren",
+        "Aufgabentext": "Gegeben seien die Vektoren:\n a⃗ = (2; −8; 1; 5), b⃗ = (3; −3; −2; −10; 5), c⃗ = (4; 1; 2; 5).\n a) Stellen Sie mit Hilfe des Skalarproduktes fest, welche dieser Vektoren orthogonal zueinander sind.\n b) Wie lautet der Einheitsvektor in Richtung von a⃗?\n c) Wie lautet ein Vektor, der die zum Vektor a⃗ entgegengesetzte Richtung hat und die Länge 8 aufweist?",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 43,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Bestimmen Sie die Koordinaten des Punktes Q, der vom Punkt P = (−2; 3) in die Richtung des Vektors a⃗ = (4, −3) um 10 Längeneinheiten entfernt liegt. Fertigen Sie zusätzlich eine Skizze an.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 44,
+        "Aufgabenbereich": "Vektoren",
+        "Aufgabentext": "Überprüfen Sie, ob folgende Vektoren linear unabhängig oder linear abhängig sind:\n a⃗ = (3; 1), b⃗ = (−1; 2), c⃗ = (5; 4).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 45,
+        "Aufgabenbereich": "Winkel zwischen zwei Vektoren",
+        "Aufgabentext": "Gegeben seien die zwei Vektoren:\n a⃗ = (2; 2; 0), b⃗ = (1; 1; √2).\n Berechnen Sie die Längen der Vektoren und den Winkel zwischen den beiden Vektoren.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 46,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Berechnen Sie den Flächeninhalt eines Dreiecks, welches durch die Ecken A = (1; 2; −2), B = (2; 3; −1) und C = (4; 0; 1) gegeben ist.\nTipp: Verwenden Sie die geometrische Interpretation des Vektorproduktes.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 47,
+        "Aufgabenbereich": "Kollineare Vektoren, Vektorprodukt",
+        "Aufgabentext": "Gegeben seien die zwei Vektoren:\n a⃗ = (6; −2; 4), b⃗ = (−3; 1; −2).\n Zeigen Sie mit zwei verschiedenen Verfahren, dass die Vektoren kollinear sind.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 48,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Gegeben sind die Punkte B = (2; 0; −2), C = (3; 3; 3) und D = (7; 8; 9).\n a) Bestimmen Sie die Koordinaten eines Punktes A so, dass das Viereck ABCD ein Parallelogramm ergibt.\n b) Berechnen Sie die Koordinaten des Schnittpunkts M der Diagonalen des Parallelogramms ABCD.\n c) Fertigen Sie eine Skizze an.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 49,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Gegeben seien die Punkte A = (−4; 1; 0) und B = (1; −4; 5).\n Die Strecke AB soll durch den Punkt T im Verhältnis 2:3 geteilt werden. Bestimmen Sie die Koordinaten von T.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 50,
+        "Aufgabenbereich": "Anwendung des Spatprodukts",
+        "Aufgabentext": "Bestimmen Sie t so, dass die beiden Vektoren:\n a⃗ = (−2; 5; −3), b⃗ = (4; 4; t)\n senkrecht zueinander sind. Begründen Sie, weshalb die Vektoren a⃗, b⃗ und a⃗ × b⃗ einen Quader aufspannen. Berechnen Sie das Volumen dieses Quaders.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 51,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Gegeben seien die Punkte A = (3; 2;−5) und D = (5; 4;−2). Der Punkt C liege auf der x-Achse, das heißt, seine Koordinaten sind von der Form C = (x, 0, 0). Bestimmen Sie mithilfe von Vektorrechnungen die Koordinaten der Punkte B und C, sodass das Viereck ABCD ein Rechteck ergibt.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 52,
+        "Aufgabenbereich": "Anwendung der Vektorrechnung",
+        "Aufgabentext": "Überprüfen Sie, ob das Dreieck mit folgenden Ecken gleichschenklig oder gleichseitig ist: A = (3; 0; 1), B = (5; 3; 6), C = (0; 5; 3).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 53,
+        "Aufgabenbereich": "Spatprodukt",
+        "Aufgabentext": "Prüfen Sie unter Verwendung des Spatproduktes, für welche Werte von t die folgenden drei Vektoren komplanar sind: a⃗ = (2; t; 4), b⃗ = (−1; 1; t), c⃗ = (8; 7; 6).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 54,
+        "Aufgabenbereich": "Matrizenrechnung",
+        "Aufgabentext": "Gegeben seien die folgenden Matrizen:\nA = [[1, 3, 0], [2, 5, −1]], B = [[−1, 4, 0], [3, 0, 2]], C = [[4, 3, −1], [2, 1, −2], [−1, 3, 4]].\nBerechnen Sie folgende Ausdrücke, sofern sie definiert sind:\n a) 5A − 3B\nb) 2B + 7C\nc) 2B + 2A.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 55,
+        "Aufgabenbereich": "Matrizenrechnung",
+        "Aufgabentext": "Gegeben seien die folgenden Matrizen:\nA = [[1, 3, 0], [2, 5, −1]], B = [[−1, 4, 0], [3, 0, 2]].\nBerechnen Sie folgende Ausdrücke, sofern sie definiert sind:\n a) 2AB\nb) 2AᵀB\nc) B ∙ 2Aᵀ.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 56,
+        "Aufgabenbereich": "Matrizenrechnung",
+        "Aufgabentext": "Gegeben seien die folgenden Matrizen:\nB = [[−1, 4, 0], [3, 0, 2]], C = [[4, 3, −1], [2, 1, −2], [−1, 3, 4]].\nBerechnen Sie folgende Ausdrücke, sofern sie definiert sind:\n a) C²\nb) −BC\nc) CB.\nTipp: C² = C ∙ C.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 57,
+        "Aufgabenbereich": "Rechenoperationen mit Matrizen",
+        "Aufgabentext": "Gegeben seien die folgenden Matrizen:\nA = [[1, 2, 3], [4, 5, 6]], B = [[1, 2], [3, 4], [5, 6]].\nZeigen Sie am Beispiel dieser Matrizen die Gültigkeit der folgenden Rechenregel:\n(A ∙ B)ᵀ = Bᵀ ∙ Aᵀ.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 58,
+        "Aufgabenbereich": "Komplexe Zahlen",
+        "Aufgabentext": "Gegeben seien die folgenden Zahlen:\nz₁ = −3 + 4j, z₂ = 1 − 3j, z₃ = 3, z₄ = 2j, z₅ = z₁∗, z₆ = −1.5z₂.\n(z∗ ist die zu z konjugiert komplexe Zahl.) Stellen Sie diese Zahlen in der Gauß'schen Zahlenebene dar.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "leicht"
+    },
+    {
+        "ID": 59,
+        "Aufgabenbereich": "Komplexe Zahlen",
+        "Aufgabentext": "Berechnen Sie für z₁ = 7 + 5j und z₂ = 5 − 3j die folgenden Ausdrücke:\n a) z₁ + z₂\nb) z₁ − z₂\nc) z₁∗ − 3 ∙ z₂\nd) |z₁|\ne) |z₂|.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 60,
+        "Aufgabenbereich": "Komplexe Zahlen",
+        "Aufgabentext": "Berechnen Sie für z₁ = −1 − 7j und z₂ = 3 + 2j die folgenden Ausdrücke:\n a) z₁∗ ∙ z₂\nb) z₁/z₂.\nAnschließend markieren Sie jeweils den Real- und den Imaginärteil.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 61,
+        "Aufgabenbereich": "Darstellung komplexer Zahlen",
+        "Aufgabentext": "Stellen Sie die folgenden komplexen Zahlen in der Gauß'schen Zahlenebene dar (ohne Umrechnung in eine andere Darstellungsform):\n z₁ = 2e^(30°j), z₂ = 4e^(45°j), z₃ = 3(cos(315°) + j*sin(315°)), z₄ = (3/4), z₅ = z₁*.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 62,
+        "Aufgabenbereich": "Komplexe Zahlen, Umrechnung der Formen",
+        "Aufgabentext": "Gegeben seien die folgenden Zahlen:\n z₁ = 5e^(60°j), z₂ = 4 − √48j.\n Stellen Sie die Zahl z₁ in der kartesischen Form z = x + jy, die Zahl z₂ in der trigonometrischen Form und der Exponentialform dar.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 63,
+        "Aufgabenbereich": "Komplexe Zahlen, Umrechnung der Formen, Rechenoperationen",
+        "Aufgabentext": "Berechnen Sie für z₁ = 12e^(120°j) und z₂ = 4(cos(150°) + j*sin(150°)) die folgenden Ausdrücke:\n a) z₁ * z₂\nb) z₂/z₁\nc) z₂³.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 64,
+        "Aufgabenbereich": "Komplexe Zahlen, Umrechnung der Formen",
+        "Aufgabentext": "Berechnen Sie den Real- und den Imaginärteil von z:\n z = (3e^(−90°j))/(2 + 5√2j).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 65,
+        "Aufgabenbereich": "Komplexe Zahlen, Umrechnung der Formen",
+        "Aufgabentext": "Berechnen Sie den Real- und den Imaginärteil von z:\n z = ((−1 + j)²)/(2√2e^(60°j)).\n Tipp: Stellen Sie zuerst den Zähler in der Exponentialform dar.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 66,
+        "Aufgabenbereich": "Komplexe Zahlen, Komplexe Wurzeln",
+        "Aufgabentext": "Bestimmen Sie alle Lösungen der Gleichung in der Exponentialform und skizzieren Sie die Zeiger der Lösungen in der Gauß'schen Zahlenebene:\n z³ = 27e^(90°j).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 67,
+        "Aufgabenbereich": "Komplexe Zahlen, Komplexe Wurzeln",
+        "Aufgabentext": "Bestimmen Sie alle Lösungen der Gleichung in der Exponentialform und skizzieren Sie die Zeiger der Lösungen in der Gauß'schen Zahlenebene:\n z³ = −3 − 3√3j.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 68,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Bestimmen Sie eine Parameterdarstellung der Geraden durch die Punkte P = (2; 3; −5) und Q = (−1; 0; 6). Liegt der Punkt D = (−4; −3; 6) auf dieser Gerade?",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 69,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Gegeben seien zwei Punkte A = (2; 3; −5) und B = (4; 7; −1). Bestimmen Sie die Gleichung der Geraden, die senkrecht zur Strecke AB durch deren Mittelpunkt verläuft.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 70,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Gegeben seien die drei Punkte A = (8; 4; 8), B = (6; 3; 6) und P = (6; 8; 10).\n a) Geben Sie eine Gleichung der Geraden an, die durch den Punkt P verläuft und parallel zu der Geraden ist, die durch die Punkte A und B geht.\n b) Berechnen Sie den Abstand des Punktes P zu der Geraden, die durch die Punkte A und B geht.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 71,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Gegeben seien die beiden Geraden:\n g₁: r(λ₁) = (4, 2, 1, −1) + λ₁(4, 1, 3, 2).\n g₂: r(λ₂) = (5, 3, 0, 7) + λ₂(−2, 1, 1, 7).\n Untersuchen Sie, ob die beiden Geraden sich schneiden.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 72,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Gegeben seien die beiden Geraden aus Aufgabe 71. Ermitteln Sie den Schnittpunkt und den Schnittwinkel der Geraden.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 73,
+        "Aufgabenbereich": "Geraden",
+        "Aufgabentext": "Ermitteln Sie den Abstand der beiden zueinander windschiefen Geraden:\n g₁: r(λ₁) = (−2, 2, −5) + λ₁(6, 2, 3).\n g₂: r(λ₂) = (−1, −1, 2) + λ₂(3, 2, 2).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 74,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien die drei Punkte P₁ = (0; 3; 6), P₂ = (1; 2; −6) und P₃ = (−9; −2; 2).\n Wie lautet eine Gleichung der Ebene in der Drei-Punkte-Form, in der alle drei Punkte liegen? Überprüfen Sie, ob der Punkt P₄ = (9; 22; 122) auch in dieser Ebene liegt.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 75,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben sei die Ebene E:\n E: r(λ; μ) = (4, 9, 1) + λ(1, 2, 0) + μ(1, 0, 3).\n Wie lautet die Gleichung der Ebene E in Normalenform: n⃗ ∙ (r − r₀) = 0? Stellen Sie für diese Ebene E auch eine Darstellung als Koordinatengleichung der Form ax + by + cz + d = 0 auf.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 76,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien der Punkt P = (−1; 10; 9) und die Ebene E aus Aufgabe 75.\n a) Berechnen Sie den Schnittpunkt der Ebene E mit der x-Achse.\n b) Bestimmen Sie den Abstand vom Punkt P zur Ebene E.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 77,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien der Punkt P = (−5; −4; 1) und die Ebene E₁:\n E₁: 2x − 3y + z − 1 = 0.\n Bestimmen Sie die Ebene E₂ in Normalenform und in der vektoriellen Punkt-Richtungs-Form, die parallel zur Ebene E₁ ist und durch den Punkt P geht.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 78,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien die Ebene E und die Gerade g:\n E: x − 3y + 3z − 6 = 0.\n g: r(λ) = (4, 0, 1) + λ(2, 1, 0).\n Berechnen Sie den Schnittpunkt S und den Schnittwinkel φ der Geraden g mit der Ebene E.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 79,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien die beiden Ebenen E₁ und E₂:\n E₁: r(λ; μ) = (1, 2, 3) + λ(−1, 0, 1) + μ(1, −1, −2).\n E₂: −2x + 2y − 2z − 2 = 0.\n a) Weisen Sie nach, dass E₁ und E₂ parallel zueinander sind.\n b) Bestimmen Sie den Abstand zwischen E₁ und E₂.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 80,
+        "Aufgabenbereich": "Ebenen",
+        "Aufgabentext": "Gegeben seien die beiden Ebenen E₁ und E₂:\n E₁: 2x − 3y + z − 1 = 0.\n E₂: −3x + 4y + 7 = 0.\n Bestimmen Sie den Schnittwinkel und eine Gleichung der Schnittgeraden der beiden Ebenen.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 81,
+        "Aufgabenbereich": "Grenzwerte von Zahlenfolgen",
+        "Aufgabentext": "Untersuchen Sie, ob die Folgen konvergent oder divergent sind. Ermitteln Sie im Fall der Konvergenz den Grenzwert:\n a) aₙ = (n² + 2)/(n + 3)\n b) aₙ = (2ⁿ + 3ⁿ)/(5ⁿ − 7).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 82,
+        "Aufgabenbereich": "Grenzwerte von Zahlenfolgen",
+        "Aufgabentext": "Untersuchen Sie, ob die Folge konvergent oder divergent ist. Ermitteln Sie im Fall der Konvergenz den Grenzwert:\n aₙ = (5 − n)²/((2n² − 3)(n + 4)).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 83,
+        "Aufgabenbereich": "Grenzwerte von Funktionen",
+        "Aufgabentext": "Bestimmen Sie den Grenzwert der Funktionen (ohne Verwendung von Ableitungen/Satz von l’Hôpital):\n a) lim x→∞ (x² + 2x + 1)/(x² − 3x + 2).\n b) lim x→∞ (2x⁴ − 3x³)/(x⁴ + x³).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 84,
+        "Aufgabenbereich": "Stetigkeit von Funktionen",
+        "Aufgabentext": "Für welche x ∈ ℝ sind die folgenden Funktionen stetig bzw. nicht stetig? Was passiert mit dem Funktionsgraph an den Stellen, an denen die Funktionen nicht stetig sind? Wie werden diese Stellen genannt?\n a) f(x) = 7x² + 3\n b) f(x) = (x + 1)/(x − 2)\n c) f(x) = (2x + 3)/(x² − 1).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 85,
+        "Aufgabenbereich": "Gebrochen-rationale Funktionen",
+        "Aufgabentext": "Gegeben sei die Funktion f(x):\n f(x) = (3x² + 42x + 72)/(x² − 4x − 12).\n Zerlegen Sie das Zähler- und das Nennerpolynom der gebrochen-rationalen Funktion in Linearfaktoren.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 86,
+        "Aufgabenbereich": "Gebrochen-rationale Funktionen",
+        "Aufgabentext": "Bestimmen Sie für die Funktion aus Aufgabe 85 den Definitionsbereich, alle Nullstellen, alle behebbaren Unstetigkeitsstellen (Definitionslücken), alle Polstellen (mit Vorzeichen- und (oder) ohne Vorzeichenwechsel) und die Asymptote. Skizzieren Sie anschließend die Funktion, sodass alle berechneten Eigenschaften erkennbar sind.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 87,
+        "Aufgabenbereich": "Gebrochen-rationale Funktionen",
+        "Aufgabentext": "Gegeben sei die Funktion f(x):\n f(x) = −3(x − 4)(x − 3)/(2x³ − 16x² + 40x − 32).\n Zerlegen Sie das Nennerpolynom der gebrochen-rationalen Funktion in Linearfaktoren.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 88,
+        "Aufgabenbereich": "Gebrochen-rationale Funktionen",
+        "Aufgabentext": "Bestimmen Sie für die Funktion aus Aufgabe 87 den Definitionsbereich, alle Nullstellen, alle behebbaren Unstetigkeitsstellen (Definitionslücken), alle Polstellen (mit Vorzeichen- und (oder) ohne Vorzeichenwechsel) und die Asymptote. Skizzieren Sie anschließend die Funktion, sodass alle berechneten Eigenschaften erkennbar sind.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 89,
+        "Aufgabenbereich": "Wurzelgleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Gleichung in ℝ:\n 5 ∙ √x − √(2x − 8) = 10.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 90,
+        "Aufgabenbereich": "Wurzelgleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Gleichung in ℝ:\n √(x + 3) + √(2x + 5) = 2.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 91,
+        "Aufgabenbereich": "Exponentialgleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Gleichung:\n (e^(3x))/(e^(2x)) = 10^(2x).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 92,
+        "Aufgabenbereich": "Exponentialgleichungen",
+        "Aufgabentext": "Bestimmen Sie die Lösungsmenge der folgenden Gleichung:\n 5^(x + 2) * 7^(x + 1) = 5^(x − 1).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 93,
+        "Aufgabenbereich": "Logarithmengleichungen",
+        "Aufgabentext": "Bestimmen Sie den Definitionsbereich und die Lösungsmenge der folgenden Gleichung:\n 7 log₁₀(x) − 2 log₁₀(x²) = 3.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 94,
+        "Aufgabenbereich": "Logarithmengleichungen",
+        "Aufgabentext": "Bestimmen Sie den Definitionsbereich und die Lösungsmenge der folgenden Gleichung:\n (1/2) log₂(x − 3) + log₂(6/5 * 27) = 1 − log₂(8√(x + 39)).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 95,
+        "Aufgabenbereich": "Ableitungen mit Faktor- und Summenregel",
+        "Aufgabentext": "Leiten Sie die folgenden Funktionen nach x ab:\n a) f(x) = x² + x * √x + e^x\n b) f(x) = 2 ln(x) + 3 cos(x)\n c) f(x) = (√x³)/(√x²) + 7.",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 96,
+        "Aufgabenbereich": "Ableitungen mit der Kettenregel",
+        "Aufgabentext": "Leiten Sie die folgenden Funktionen nach x ab:\n a) f(t) = √t + t³ + 1\n b) f(x) = sin³(8√(x + 29)).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "mittel"
+    },
+    {
+        "ID": 97,
+        "Aufgabenbereich": "Ableitungen mit der Produktregel und der Kettenregel",
+        "Aufgabentext": "Leiten Sie die folgenden Funktionen nach x ab:\n a) f(x) = cos(3x) * e^(2x)\n b) f(x) = √(2x − 1) * ln(4x + 3).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    },
+    {
+        "ID": 98,
+        "Aufgabenbereich": "Ableitungen mit der Quotientenregel",
+        "Aufgabentext": "Leiten Sie die folgenden Funktionen nach x ab:\n a) f(x) = (x² + 1)/(x³ − 1)\n b) f(x) = (e^(−x))/(ln(x)).",
+        "Details": {},
+        "Lösung": {},
+        "Schwierigkeitsgrad": "schwer"
+    }
+]
